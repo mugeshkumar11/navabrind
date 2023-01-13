@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 12%;
+}
+.loginpage{
+    background-color:#1975ca;
+    text-align: center;
+    height: 100vh;
+}
+.usercredent input{
+    display: block;
+    padding: 10px 15px;
+    margin: 30px  auto;
+}
+.loginflex{
+    background-color: #fff;
+    border-radius: 8px;
+    height: 460px;
+    width: 300px;
+}
+.logincontent{
+  padding: 20px;
+}
+.usercredent button{
+    padding: 10px 20px;
+    background-color: #1975ca;
+    border: none;
+    cursor: pointer;
+   margin-left: 10px;
+}
+.loginflex h3{
+    padding-top:15px ;
+}
+.usercredent h4{
+    color: red;
+    padding-top:10px;
+}
+/* :active .usercredent h4{
+    color:green;
+    padding-top:10px;
+} */

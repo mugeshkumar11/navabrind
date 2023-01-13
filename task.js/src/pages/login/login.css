@@ -1,0 +1,9 @@
+.logflex{
+    background-color: #fff;
+    border-radius: 8px;
+    height: 300px;
+    width: 300px;
+}
+.logflex h3{
+    padding-top:15px ;
+}
