@@ -9,10 +9,10 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 12%;
+    padding-top: 7%;
 }
 .loginpage{
-    background-color:#1975ca;
+    background-image: linear-gradient(to right, #870000, #190a05);
     text-align: center;
     height: 100vh;
 }
@@ -48,3 +48,7 @@
     color:green;
     padding-top:10px;
 } */
+.navigate{
+    padding: 10px;
+    background-color: #870000;
+}

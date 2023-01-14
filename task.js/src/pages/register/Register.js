@@ -18,12 +18,14 @@ const Register = () => {
           seterror("please enter name and password");
           return;
         } 
-        else{
-         alert("welcome to our company website");
-         localStorage.setItem("update", JSON.stringify([...update,register]));
-        navigate("/Login");
+       else if (JSON.parse(localStorage.getItem("update")) === null) {
+          localStorage.setItem("update", JSON.stringify([register]));
+        } else {
+          let data = JSON.parse(localStorage.getItem("update"));
+          data.push(register);
+          localStorage.setItem("update", JSON.stringify(data));
         }
-     
+        navigate("/Login");
       
     }
  

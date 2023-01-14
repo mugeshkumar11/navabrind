@@ -19,13 +19,13 @@ body {
 }
 
   .nav{
-    background-color:#1975ca;
+    background-image: linear-gradient(to right, #870000, #190a05);
     height: 100px;
     
   }
   .navbarflex{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
   .navlogo h2{
     font-size: 32px;
@@ -36,26 +36,11 @@ body {
   a{
     text-decoration: none;
   }
-  .navbarlist ul{
-    list-style: none;
-    display: flex;
-    padding-top: 30px;
-  }
-  .navbarlist li{
-    font-size: 25px;
-    color: #fff;
-    padding: 10px 15px ;
-    border-radius: 6px;
-    background-color: brown;
-  }
-  .navbarlist, input{
-    padding: 8px 20px !important;
-  }
 th,td {
     border: 1px solid black;
     font-family: sans-serif;
     font-size: 22px;
-   
+   color: #fff;
 }
 table{
     width: 100%;
@@ -68,7 +53,7 @@ td{
     padding-bottom: 10px;
 }
 th{
-    background-color: aquamarine;
+    background-color:brown;
 padding-top: 15px;
 padding-bottom: 15px;
 }
@@ -77,4 +62,8 @@ padding: 10px 20px;
 background-color: brown;
 border: none;
 border-radius: 6px;
+color: #fff;
+}
+.homepage {
+  background-image: linear-gradient(to right, #870000, #190a05);
 }
