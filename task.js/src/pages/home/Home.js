@@ -20,19 +20,16 @@ const Home = () => {
   const handleaction = (index) => {
     // e.preventDefault()
     Navigate({
-     pathname:"/Details",
-     search:createSearchParams({
-      id:index
-     }).toString()
+      pathname: "/Details",
+      search: createSearchParams({
+        id: index,
+      }).toString(),
     });
     const easy = getlocaldata[index];
     console.log("eve", easy);
 
-    dispatch({ type: "add", payload: [...state.event, easy]});
+    dispatch({ type: "add", payload: [...state.event, easy] });
   };
- 
-
- 
 
   return (
     <div className="homepage">

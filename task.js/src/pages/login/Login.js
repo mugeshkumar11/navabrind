@@ -50,9 +50,9 @@ const Login = () => {
 
     sessionStorage.setItem("islogged", JSON.stringify(true));
   };
-  const handleregister = () =>{
-    Navigate("/Register")
-  }
+  const handleregister = () => {
+    Navigate("/Register");
+  };
   return (
     <div className="loginpage">
       <section className="container1">
