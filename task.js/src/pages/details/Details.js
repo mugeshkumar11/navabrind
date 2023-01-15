@@ -1,25 +1,17 @@
-import React, { useState ,useEffect} from 'react'
+import React, { useState ,useEffect, useContext} from 'react'
 import './details.css';
-import image from './details.jpg'
-import { useNavigate } from 'react-router-dom';
-import { useSearchParams } from 'react-router-dom';
+import image from './details.jpg';
+import { statecontext } from '../context/Context';
 const Details = () => {
-    const [data , setdata] = useState([]);
    
-  useEffect(()=>{
-    const localStorageData = JSON.parse(localStorage.getItem("update"))
-    setdata(localStorageData);
-  },[])
-  console.log("data",data);
-
-  const [param] = useSearchParams();
-   console.log(param.get,"para");
-   console.log(param,"ara");
+    
+  const { state, dispatch } = useContext(statecontext);
+  console.log("statecontext", state.event);
 
   return (
     <div className='detailpage'>
-         {data.map((item)=>(
-      <section className='details'>
+         {state.event.map((item,index)=>(
+      <section className='details' key={index}>
         <div className='detailsflex'>
             <div className='detailleft'>
                 <h2>React js</h2>

@@ -12,5 +12,11 @@ export const initialstate = {
                 ...state,
                 Authenticated:state.Authenticated=true
             }
+
+        case "add":
+            return{
+                ...state,
+                event:action.payload
+            }
      }
  }
