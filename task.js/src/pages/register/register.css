@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 7%;
+    padding-top: 50%;
 }
 .loginpage{
     background-image: linear-gradient(to right, #870000, #190a05);
@@ -51,4 +51,26 @@
 .navigate{
     padding: 10px;
     background-color: #870000;
+}
+@media(min-width:768px){
+    .container{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 35%;
+    }
+  
+}
+@media(min-width:1024px){
+    .container{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 7%;
+    }
+   
 }

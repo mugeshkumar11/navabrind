@@ -13,5 +13,25 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 13%;
+    padding-top: 66%;
+}
+@media(min-width:768px){
+    .container1{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 50%;
+    }
+}
+@media(min-width:1024px){
+    .container1{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 13%;
+    }
 }
