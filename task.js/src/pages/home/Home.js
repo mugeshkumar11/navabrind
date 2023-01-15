@@ -28,7 +28,7 @@ const Home = () => {
     const easy = getlocaldata[index];
     console.log("eve", easy);
 
-    dispatch({ type: "add", payload: [state.event, easy] });
+    dispatch({ type: "add", payload: [...state.event, easy]});
   };
  
 
