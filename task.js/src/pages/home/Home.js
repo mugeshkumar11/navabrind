@@ -38,7 +38,7 @@ const Home = () => {
           <div className={"navlogo"}>
             <Link to={"/Home"}>
               {" "}
-              <h2>Welcome to the page our company wep page</h2>
+              <h2>Welcome to the our company wep page</h2>
             </Link>
           </div>
         </div>
